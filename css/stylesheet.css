@@ -151,6 +151,7 @@ video{
 
 footer{
   text-align: center;
+  background-color: lightgray;
 }
 
 footer a, footer li{
@@ -161,12 +162,9 @@ footer a, footer li{
 
 #adresse {
 text-decoration: underline;
-margin-top: 3%;
 padding-bottom: 3%;
 }
 
-#links{
-  text-align: left;
-  margin-left: 42.5%;
-  padding-bottom: 5%;
+#adresse a:hover{
+  color: red;
 }
