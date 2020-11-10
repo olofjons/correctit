@@ -1,3 +1,150 @@
 *{
-  margin-left: 2%;
+  margin: 0;
+  font-family: helvetica;
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 5%;
+}
+/*----------------------------------------*/
+/* --------------- DROPDOWN/NAVBAR -------*/
+/*----------------------------------------*/
+
+.header{
+  top: 0;
+  position: sticky;
+  z-index: 999999999999999999;
+}
+
+
+
+img{
+  width: 7.5%;
+  float: left;
+}
+
+.dropbtn {
+  background-color: dimgray;
+  color: white;
+  font-size: 2vw;;
+  border: none;
+}
+
+.dropdown {
+  margin: 2%;
+  position: relative;
+  display: inline-block;
+  border-bottom: 3px solid white;
+}
+
+.navbar p{
+  padding-top: 2.5%;
+  font-size: 0.9vw;
+  font-weight: bold;
+  color: black;
+  border-bottom: 1px solid lightgrey;
+  border-top: 1px solid white;
+  border-left:1px solid black;
+  border-right: 1px solid black;
+  background: mintcream;
+}
+
+button{
+  border-radius: 5% 5% 0 0;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+.dropdown-content {
+  color: lightgray;
+  width: 100%;
+  display: none;
+  position: absolute;
+  background-color: dimgray;
+}
+
+.dropdown-content a {
+  font-size: 0.9vw;
+  display: none;
+  color: white;
+  padding: 0.1vw;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px gray solid;
+}
+
+.dropdown-content a:hover {
+  background-color: #191919;
+  transition: 0.3s;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color:
+}
+
+.dropdown:hover .dropbtn {
+  background-color: silver;
+  transition: 0.3s;
+}
+
+.navbar{
+  width: 100%;
+  background-color: dimgray;
+  text-align: center;
+}
+/*----------------------------------------*/
+/* ---------------- VIDEO --------------- */
+/*----------------------------------------*/
+video{
+  z-index: 0;
+  margin-left: 25%;
+  margin-right: 25%;;
+  width: 50%;
+}
+
+.videotxt{
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*----------------------------------------*/
+/*---------------CONTENT------------------*/
+/*----------------------------------------*/
+
+.intro h1{
+  padding-top: 1vw;
+  font-size: 3vw;
+  }
+
+
+/*----------------------------------------*/
+/*---------------FOOTER-------------------*/
+/*----------------------------------------*/
+
+.sosial{
+  margin-bottom: 0;
+  display: inline-block;
+  width: 99%;
+  text-align: center;
+  background-color: silver;
+  padding: 0.5%;
+}
+
+.sosial img{
+  padding:0.5%;
+  margin-left: 5.5%;
+  width: 2%;
+  border-radius: 30%;
+
+}
+
+.sosial img:hover{
+  background-color: white;
+  transition: 0.4s;
 }
