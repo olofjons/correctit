@@ -148,3 +148,25 @@ video{
   background-color: white;
   transition: 0.4s;
 }
+
+footer{
+  text-align: center;
+}
+
+footer a, footer li{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+#adresse {
+text-decoration: underline;
+margin-top: 3%;
+padding-bottom: 3%;
+}
+
+#links{
+  text-align: left;
+  margin-left: 42.5%;
+  padding-bottom: 5%;
+}
