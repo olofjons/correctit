@@ -17,16 +17,12 @@ h1{
   z-index: 999999999999999999;
 }
 
-#apply a, #about a{
-  color: white;
-}
-
 img{
   width: 7.5%;
   float: left;
 }
 
-.dropbtn, .dropbtn2 {
+.dropbtn {
   background-color: maroon;
   color: white;
   font-size: 2vw;;
@@ -106,9 +102,6 @@ button{
   width: 100%;
   background-color: maroon;
   text-align: center;
-}
-.dropbtn2:hover{
-  background-color: black;
 }
 /*----------------------------------------*/
 /* ---------------- VIDEO --------------- */
