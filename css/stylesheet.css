@@ -17,8 +17,6 @@ h1{
   z-index: 999999999999999999;
 }
 
-
-
 img{
   width: 7.5%;
   float: left;
@@ -31,11 +29,39 @@ img{
   border: none;
 }
 
+.dropbtn2 {
+  background-color: maroon;
+  color: white;
+  font-size: 2vw;;
+  border: none;
+}
+
+.dropned:hover .dropbtn2 {
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+}
+
 .dropned {
   margin: 2%;
   position: relative;
   display: inline-block;
   border-bottom: 3px solid white;
+}
+
+.dropned a{
+  color: white;
+  text-decoration: none;
+}
+
+#about, #apply{
+  border: 3px solid white;
+  border-bottom: none;
+}
+
+.dropbtn2 a:hover{
+  background-color: white;
+  color: black;
 }
 
 .navbar p{
@@ -234,7 +260,7 @@ padding-bottom: 3%;
 @media screen and (max-width: 1000px) {
 
   .intro h1{
-    margin-left: 7%; 
+    margin-left: 7%;
     font-size: 3vw;
     color: black;
   }
@@ -283,7 +309,7 @@ padding-bottom: 3%;
   }
 
   .dropned-c {
-    max-height: 1300%;
+    max-height: 1700%;
     width: 600%;
     overflow: scroll;
     color: lightgray;
