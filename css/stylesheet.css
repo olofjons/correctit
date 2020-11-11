@@ -17,29 +17,20 @@ h1{
   z-index: 999999999999999999;
 }
 
+#apply a, #about a{
+  color: white;
+}
+
 img{
   width: 7.5%;
   float: left;
 }
 
-.dropbtn {
+.dropbtn, .dropbtn2 {
   background-color: maroon;
   color: white;
   font-size: 2vw;;
   border: none;
-}
-
-.dropbtn2 {
-  background-color: maroon;
-  color: white;
-  font-size: 2vw;;
-  border: none;
-}
-
-.dropned:hover .dropbtn2 {
-  background-color: white;
-  color: black;
-  transition: 0.3s;
 }
 
 .dropned {
@@ -50,18 +41,8 @@ img{
 }
 
 .dropned a{
-  color: white;
+  color: lightblue;
   text-decoration: none;
-}
-
-#about, #apply{
-  border: 3px solid white;
-  border-bottom: none;
-}
-
-.dropbtn2 a:hover{
-  background-color: white;
-  color: black;
 }
 
 .navbar p{
@@ -125,6 +106,9 @@ button{
   width: 100%;
   background-color: maroon;
   text-align: center;
+}
+.dropbtn2:hover{
+  background-color: black;
 }
 /*----------------------------------------*/
 /* ---------------- VIDEO --------------- */
